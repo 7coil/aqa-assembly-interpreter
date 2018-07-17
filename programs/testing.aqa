@@ -1,3 +1,8 @@
+// AQA A-level Computer Science
+// Paper 2 Exam
+// 22nd June 2017, Morning
+// Question 5.2
+{"100":10,"101":50,"102":80}
     LDR R1, 100
     LSL R2, R1, #2
     ADD R1, R1, R2

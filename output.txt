@@ -1,0 +1,1397 @@
+==============
+Instruction Counter:  0
+Operations:  1
+Line:  MOV R0, #19208934
+Type:  Copy to register
+Memory:  {}
+Registers:  { '0': 19208934 }
+==============
+Instruction Counter:  1
+Operations:  2
+Line:  MOV R1, #1080123
+Type:  Copy to register
+Memory:  {}
+Registers:  { '0': 19208934, '1': 1080123 }
+==============
+Instruction Counter:  2
+Operations:  3
+Line:  MOV R2, #0
+Type:  Copy to register
+Memory:  {}
+Registers:  { '0': 19208934, '1': 1080123, '2': 0 }
+==============
+Instruction Counter:  3
+Operations:  4
+Line:  LOOP:
+Type:  Label
+Memory:  {}
+Registers:  { '0': 19208934, '1': 1080123, '2': 0 }
+==============
+Instruction Counter:  4
+Operations:  5
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 19208934, '1': 1080123, '2': 0, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  6
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 19208934, '1': 1080123, '2': 0, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  7
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': 19208934, '1': 1080123, '2': 0, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  8
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 19208934, '1': 1080123, '2': 0, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  8
+Operations:  9
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 19208934, '1': 1080123, '2': 0, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  9
+Operations:  10
+Line:  ADD R2, R2, R0
+Type:  Add
+Memory:  {}
+Registers:  { '0': 19208934, '1': 1080123, '2': 19208934, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  10
+Operations:  11
+Line:  INC:
+Type:  Label
+Memory:  {}
+Registers:  { '0': 19208934, '1': 1080123, '2': 19208934, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  11
+Operations:  12
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': 38417868, '1': 1080123, '2': 19208934, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  12
+Operations:  13
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': 38417868, '1': 540061, '2': 19208934, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  13
+Operations:  14
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': 38417868, '1': 540061, '2': 19208934, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  4
+Operations:  15
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 38417868, '1': 540061, '2': 19208934, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  16
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 38417868, '1': 540061, '2': 19208934, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  17
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': 38417868, '1': 540061, '2': 19208934, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  18
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 38417868, '1': 540061, '2': 19208934, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  8
+Operations:  19
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 38417868, '1': 540061, '2': 19208934, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  9
+Operations:  20
+Line:  ADD R2, R2, R0
+Type:  Add
+Memory:  {}
+Registers:  { '0': 38417868, '1': 540061, '2': 57626802, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  10
+Operations:  21
+Line:  INC:
+Type:  Label
+Memory:  {}
+Registers:  { '0': 38417868, '1': 540061, '2': 57626802, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  11
+Operations:  22
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': 76835736, '1': 540061, '2': 57626802, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  12
+Operations:  23
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': 76835736, '1': 270030, '2': 57626802, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  13
+Operations:  24
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': 76835736, '1': 270030, '2': 57626802, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  4
+Operations:  25
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 76835736, '1': 270030, '2': 57626802, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  26
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 76835736, '1': 270030, '2': 57626802, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  27
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': 76835736, '1': 270030, '2': 57626802, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  28
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 76835736, '1': 270030, '2': 57626802, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  8
+Operations:  29
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 76835736, '1': 270030, '2': 57626802, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  11
+Operations:  30
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': 153671472, '1': 270030, '2': 57626802, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  12
+Operations:  31
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': 153671472, '1': 135015, '2': 57626802, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  13
+Operations:  32
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': 153671472, '1': 135015, '2': 57626802, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  4
+Operations:  33
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 153671472, '1': 135015, '2': 57626802, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  34
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 153671472, '1': 135015, '2': 57626802, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  35
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': 153671472, '1': 135015, '2': 57626802, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  36
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 153671472, '1': 135015, '2': 57626802, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  8
+Operations:  37
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 153671472, '1': 135015, '2': 57626802, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  9
+Operations:  38
+Line:  ADD R2, R2, R0
+Type:  Add
+Memory:  {}
+Registers:  { '0': 153671472, '1': 135015, '2': 211298274, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  10
+Operations:  39
+Line:  INC:
+Type:  Label
+Memory:  {}
+Registers:  { '0': 153671472, '1': 135015, '2': 211298274, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  11
+Operations:  40
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': 307342944, '1': 135015, '2': 211298274, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  12
+Operations:  41
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': 307342944, '1': 67507, '2': 211298274, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  13
+Operations:  42
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': 307342944, '1': 67507, '2': 211298274, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  4
+Operations:  43
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 307342944, '1': 67507, '2': 211298274, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  44
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 307342944, '1': 67507, '2': 211298274, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  45
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': 307342944, '1': 67507, '2': 211298274, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  46
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 307342944, '1': 67507, '2': 211298274, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  8
+Operations:  47
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 307342944, '1': 67507, '2': 211298274, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  9
+Operations:  48
+Line:  ADD R2, R2, R0
+Type:  Add
+Memory:  {}
+Registers:  { '0': 307342944, '1': 67507, '2': 518641218, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  10
+Operations:  49
+Line:  INC:
+Type:  Label
+Memory:  {}
+Registers:  { '0': 307342944, '1': 67507, '2': 518641218, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  11
+Operations:  50
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': 614685888, '1': 67507, '2': 518641218, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  12
+Operations:  51
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': 614685888, '1': 33753, '2': 518641218, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  13
+Operations:  52
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': 614685888, '1': 33753, '2': 518641218, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  4
+Operations:  53
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 614685888, '1': 33753, '2': 518641218, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  54
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 614685888, '1': 33753, '2': 518641218, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  55
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': 614685888, '1': 33753, '2': 518641218, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  56
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 614685888, '1': 33753, '2': 518641218, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  8
+Operations:  57
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 614685888, '1': 33753, '2': 518641218, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  9
+Operations:  58
+Line:  ADD R2, R2, R0
+Type:  Add
+Memory:  {}
+Registers:  { '0': 614685888, '1': 33753, '2': 1133327106, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  10
+Operations:  59
+Line:  INC:
+Type:  Label
+Memory:  {}
+Registers:  { '0': 614685888, '1': 33753, '2': 1133327106, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  11
+Operations:  60
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': 1229371776, '1': 33753, '2': 1133327106, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  12
+Operations:  61
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': 1229371776, '1': 16876, '2': 1133327106, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  13
+Operations:  62
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': 1229371776, '1': 16876, '2': 1133327106, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  4
+Operations:  63
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 1229371776, '1': 16876, '2': 1133327106, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  64
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 1229371776, '1': 16876, '2': 1133327106, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  65
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': 1229371776, '1': 16876, '2': 1133327106, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  66
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 1229371776, '1': 16876, '2': 1133327106, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  8
+Operations:  67
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 1229371776, '1': 16876, '2': 1133327106, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  11
+Operations:  68
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': -1836223744,
+  '1': 16876,
+  '2': 1133327106,
+  '3': 0,
+  cmp: 'EQ' }
+==============
+Instruction Counter:  12
+Operations:  69
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': -1836223744, '1': 8438, '2': 1133327106, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  13
+Operations:  70
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': -1836223744, '1': 8438, '2': 1133327106, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  4
+Operations:  71
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': -1836223744, '1': 8438, '2': 1133327106, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  72
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': -1836223744, '1': 8438, '2': 1133327106, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  73
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': -1836223744, '1': 8438, '2': 1133327106, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  74
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': -1836223744, '1': 8438, '2': 1133327106, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  8
+Operations:  75
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': -1836223744, '1': 8438, '2': 1133327106, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  11
+Operations:  76
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': 622519808, '1': 8438, '2': 1133327106, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  12
+Operations:  77
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': 622519808, '1': 4219, '2': 1133327106, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  13
+Operations:  78
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': 622519808, '1': 4219, '2': 1133327106, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  4
+Operations:  79
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 622519808, '1': 4219, '2': 1133327106, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  80
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 622519808, '1': 4219, '2': 1133327106, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  81
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': 622519808, '1': 4219, '2': 1133327106, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  82
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 622519808, '1': 4219, '2': 1133327106, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  8
+Operations:  83
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 622519808, '1': 4219, '2': 1133327106, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  9
+Operations:  84
+Line:  ADD R2, R2, R0
+Type:  Add
+Memory:  {}
+Registers:  { '0': 622519808, '1': 4219, '2': 1755846914, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  10
+Operations:  85
+Line:  INC:
+Type:  Label
+Memory:  {}
+Registers:  { '0': 622519808, '1': 4219, '2': 1755846914, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  11
+Operations:  86
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': 1245039616, '1': 4219, '2': 1755846914, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  12
+Operations:  87
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': 1245039616, '1': 2109, '2': 1755846914, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  13
+Operations:  88
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': 1245039616, '1': 2109, '2': 1755846914, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  4
+Operations:  89
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 1245039616, '1': 2109, '2': 1755846914, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  90
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 1245039616, '1': 2109, '2': 1755846914, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  91
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': 1245039616, '1': 2109, '2': 1755846914, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  92
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 1245039616, '1': 2109, '2': 1755846914, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  8
+Operations:  93
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 1245039616, '1': 2109, '2': 1755846914, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  9
+Operations:  94
+Line:  ADD R2, R2, R0
+Type:  Add
+Memory:  {}
+Registers:  { '0': 1245039616, '1': 2109, '2': 3000886530, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  10
+Operations:  95
+Line:  INC:
+Type:  Label
+Memory:  {}
+Registers:  { '0': 1245039616, '1': 2109, '2': 3000886530, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  11
+Operations:  96
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': -1804888064, '1': 2109, '2': 3000886530, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  12
+Operations:  97
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': -1804888064, '1': 1054, '2': 3000886530, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  13
+Operations:  98
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': -1804888064, '1': 1054, '2': 3000886530, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  4
+Operations:  99
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': -1804888064, '1': 1054, '2': 3000886530, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  100
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': -1804888064, '1': 1054, '2': 3000886530, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  101
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': -1804888064, '1': 1054, '2': 3000886530, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  102
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': -1804888064, '1': 1054, '2': 3000886530, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  8
+Operations:  103
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': -1804888064, '1': 1054, '2': 3000886530, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  11
+Operations:  104
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': 685191168, '1': 1054, '2': 3000886530, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  12
+Operations:  105
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': 685191168, '1': 527, '2': 3000886530, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  13
+Operations:  106
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': 685191168, '1': 527, '2': 3000886530, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  4
+Operations:  107
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 685191168, '1': 527, '2': 3000886530, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  108
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 685191168, '1': 527, '2': 3000886530, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  109
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': 685191168, '1': 527, '2': 3000886530, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  110
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 685191168, '1': 527, '2': 3000886530, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  8
+Operations:  111
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 685191168, '1': 527, '2': 3000886530, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  9
+Operations:  112
+Line:  ADD R2, R2, R0
+Type:  Add
+Memory:  {}
+Registers:  { '0': 685191168, '1': 527, '2': 3686077698, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  10
+Operations:  113
+Line:  INC:
+Type:  Label
+Memory:  {}
+Registers:  { '0': 685191168, '1': 527, '2': 3686077698, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  11
+Operations:  114
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': 1370382336, '1': 527, '2': 3686077698, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  12
+Operations:  115
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': 1370382336, '1': 263, '2': 3686077698, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  13
+Operations:  116
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': 1370382336, '1': 263, '2': 3686077698, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  4
+Operations:  117
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 1370382336, '1': 263, '2': 3686077698, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  118
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 1370382336, '1': 263, '2': 3686077698, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  119
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': 1370382336, '1': 263, '2': 3686077698, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  120
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 1370382336, '1': 263, '2': 3686077698, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  8
+Operations:  121
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 1370382336, '1': 263, '2': 3686077698, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  9
+Operations:  122
+Line:  ADD R2, R2, R0
+Type:  Add
+Memory:  {}
+Registers:  { '0': 1370382336, '1': 263, '2': 5056460034, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  10
+Operations:  123
+Line:  INC:
+Type:  Label
+Memory:  {}
+Registers:  { '0': 1370382336, '1': 263, '2': 5056460034, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  11
+Operations:  124
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': -1554202624, '1': 263, '2': 5056460034, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  12
+Operations:  125
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': -1554202624, '1': 131, '2': 5056460034, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  13
+Operations:  126
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': -1554202624, '1': 131, '2': 5056460034, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  4
+Operations:  127
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': -1554202624, '1': 131, '2': 5056460034, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  128
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': -1554202624, '1': 131, '2': 5056460034, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  129
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': -1554202624, '1': 131, '2': 5056460034, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  130
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': -1554202624, '1': 131, '2': 5056460034, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  8
+Operations:  131
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': -1554202624, '1': 131, '2': 5056460034, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  9
+Operations:  132
+Line:  ADD R2, R2, R0
+Type:  Add
+Memory:  {}
+Registers:  { '0': -1554202624, '1': 131, '2': 3502257410, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  10
+Operations:  133
+Line:  INC:
+Type:  Label
+Memory:  {}
+Registers:  { '0': -1554202624, '1': 131, '2': 3502257410, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  11
+Operations:  134
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': 1186562048, '1': 131, '2': 3502257410, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  12
+Operations:  135
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': 1186562048, '1': 65, '2': 3502257410, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  13
+Operations:  136
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': 1186562048, '1': 65, '2': 3502257410, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  4
+Operations:  137
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 1186562048, '1': 65, '2': 3502257410, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  138
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 1186562048, '1': 65, '2': 3502257410, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  139
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': 1186562048, '1': 65, '2': 3502257410, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  140
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 1186562048, '1': 65, '2': 3502257410, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  8
+Operations:  141
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 1186562048, '1': 65, '2': 3502257410, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  9
+Operations:  142
+Line:  ADD R2, R2, R0
+Type:  Add
+Memory:  {}
+Registers:  { '0': 1186562048, '1': 65, '2': 4688819458, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  10
+Operations:  143
+Line:  INC:
+Type:  Label
+Memory:  {}
+Registers:  { '0': 1186562048, '1': 65, '2': 4688819458, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  11
+Operations:  144
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': -1921843200, '1': 65, '2': 4688819458, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  12
+Operations:  145
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': -1921843200, '1': 32, '2': 4688819458, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  13
+Operations:  146
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': -1921843200, '1': 32, '2': 4688819458, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  4
+Operations:  147
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': -1921843200, '1': 32, '2': 4688819458, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  148
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': -1921843200, '1': 32, '2': 4688819458, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  149
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': -1921843200, '1': 32, '2': 4688819458, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  150
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': -1921843200, '1': 32, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  8
+Operations:  151
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': -1921843200, '1': 32, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  11
+Operations:  152
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': 451280896, '1': 32, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  12
+Operations:  153
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': 451280896, '1': 16, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  13
+Operations:  154
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': 451280896, '1': 16, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  4
+Operations:  155
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 451280896, '1': 16, '2': 4688819458, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  156
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 451280896, '1': 16, '2': 4688819458, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  157
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': 451280896, '1': 16, '2': 4688819458, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  158
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 451280896, '1': 16, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  8
+Operations:  159
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 451280896, '1': 16, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  11
+Operations:  160
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': 902561792, '1': 16, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  12
+Operations:  161
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': 902561792, '1': 8, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  13
+Operations:  162
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': 902561792, '1': 8, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  4
+Operations:  163
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 902561792, '1': 8, '2': 4688819458, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  164
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 902561792, '1': 8, '2': 4688819458, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  165
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': 902561792, '1': 8, '2': 4688819458, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  166
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 902561792, '1': 8, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  8
+Operations:  167
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 902561792, '1': 8, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  11
+Operations:  168
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': 1805123584, '1': 8, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  12
+Operations:  169
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': 1805123584, '1': 4, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  13
+Operations:  170
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': 1805123584, '1': 4, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  4
+Operations:  171
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 1805123584, '1': 4, '2': 4688819458, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  172
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 1805123584, '1': 4, '2': 4688819458, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  173
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': 1805123584, '1': 4, '2': 4688819458, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  174
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 1805123584, '1': 4, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  8
+Operations:  175
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 1805123584, '1': 4, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  11
+Operations:  176
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': -684720128, '1': 4, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  12
+Operations:  177
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': -684720128, '1': 2, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  13
+Operations:  178
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': -684720128, '1': 2, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  4
+Operations:  179
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': -684720128, '1': 2, '2': 4688819458, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  180
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': -684720128, '1': 2, '2': 4688819458, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  181
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': -684720128, '1': 2, '2': 4688819458, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  182
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': -684720128, '1': 2, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  8
+Operations:  183
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': -684720128, '1': 2, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  11
+Operations:  184
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': -1369440256, '1': 2, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  12
+Operations:  185
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': -1369440256, '1': 1, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  13
+Operations:  186
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': -1369440256, '1': 1, '2': 4688819458, '3': 0, cmp: 'EQ' }
+==============
+Instruction Counter:  4
+Operations:  187
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': -1369440256, '1': 1, '2': 4688819458, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  5
+Operations:  188
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': -1369440256, '1': 1, '2': 4688819458, '3': 0, cmp: 'GT' }
+==============
+Instruction Counter:  6
+Operations:  189
+Line:  AND R3, R1, #1
+Type:  AND
+Memory:  {}
+Registers:  { '0': -1369440256, '1': 1, '2': 4688819458, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  7
+Operations:  190
+Line:  CMP R3, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': -1369440256, '1': 1, '2': 4688819458, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  8
+Operations:  191
+Line:  BEQ INC
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': -1369440256, '1': 1, '2': 4688819458, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  9
+Operations:  192
+Line:  ADD R2, R2, R0
+Type:  Add
+Memory:  {}
+Registers:  { '0': -1369440256, '1': 1, '2': 3319379202, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  10
+Operations:  193
+Line:  INC:
+Type:  Label
+Memory:  {}
+Registers:  { '0': -1369440256, '1': 1, '2': 3319379202, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  11
+Operations:  194
+Line:  LSL R0, R0, #1
+Type:  Logically shift left
+Memory:  {}
+Registers:  { '0': 1556086784, '1': 1, '2': 3319379202, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  12
+Operations:  195
+Line:  LSR R1, R1, #1
+Type:  Logically shift right
+Memory:  {}
+Registers:  { '0': 1556086784, '1': 0, '2': 3319379202, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  13
+Operations:  196
+Line:  B LOOP
+Type:  Branch
+Memory:  {}
+Registers:  { '0': 1556086784, '1': 0, '2': 3319379202, '3': 1, cmp: 'GT' }
+==============
+Instruction Counter:  4
+Operations:  197
+Line:  CMP R1, #0
+Type:  Compare
+Memory:  {}
+Registers:  { '0': 1556086784, '1': 0, '2': 3319379202, '3': 1, cmp: 'EQ' }
+==============
+Instruction Counter:  5
+Operations:  198
+Line:  BEQ END
+Type:  Branch if equal to
+Memory:  {}
+Registers:  { '0': 1556086784, '1': 0, '2': 3319379202, '3': 1, cmp: 'EQ' }
+==============
+Instruction Counter:  15
+Operations:  199
+Line:  HALT
+Type:  Halt
+Memory:  {}
+Registers:  { '0': 1556086784, '1': 0, '2': 3319379202, '3': 1, cmp: 'EQ' }
