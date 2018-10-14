@@ -1,2 +1,7 @@
 # INTERPT
-_AQA Interpreter_   
+_AQA Assembly Interpreter_   
+
+# Use
+```
+node index.js program.aqa
+```
